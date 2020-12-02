@@ -13,10 +13,12 @@ public class Battery {
 
     }
 
-    Battery first = new Battery(50);
-
-
-
+    public static void main(String[] args) {
+        Battery sec = new Battery(100);
+        Battery first = new Battery(30);
+        sec.exchange(first);
+        System.out.println(sec.load);
+    }
 
 
 }
