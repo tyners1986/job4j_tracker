@@ -20,7 +20,7 @@ public class Triangle {
 
     public boolean exist(double ab, double ac, double bc) {
 
-        return false;
+        return ab + ac > bc;
     }
 
     public double area() {
