@@ -4,6 +4,7 @@ public class Reduce {
     private int[] array;
 
     public void to(int[] arr) {
+
         array = arr;
     }
 
