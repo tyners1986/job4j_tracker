@@ -6,6 +6,8 @@ public class Profession {
     private String education;
     private int birthday;
 
+
+
     public String getName() {
         return name;
     }
