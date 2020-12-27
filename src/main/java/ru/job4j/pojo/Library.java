@@ -25,7 +25,7 @@ public class Library {
         fin[3] = tmp;
         for (int i = 0; i < fin.length; i++) {
             Book clear = fin[i];
-            if (clear.getName() == "Clean code") {
+            if (clear.getName().equals("Clean code")) {
                 System.out.println("книга" + " " + clear.getName());
             }
         }
